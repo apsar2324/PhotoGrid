@@ -1,16 +1,101 @@
-# React + Vite
+#📸 PhotoGrid
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Responsive Photo Search Application
 
-Currently, two official plugins are available:
+🔗 Live Demo: https://photogr1d.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 GitHub Repo: https://github.com/your-username/photogrid
 
-## React Compiler
+##📌 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+###PhotoGrid is a mobile-first React application that allows users to search and browse images using the Pexels API.
+###This project was built to strengthen core frontend concepts like API fetching, React hooks, responsive layouts, and props-based data flow.
 
-## Expanding the ESLint configuration
+##✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-Keyword-based image search
+
+-External REST API integration
+
+-Mobile-first responsive grid layout
+
+-Clean component-based architecture
+
+-Data flow using props (props drilling)
+
+#3🛠 Tech Stack
+
+-React
+
+-JavaScript (ES6+)
+
+-CSS Grid
+
+-Pexels API
+
+-Netlify (Deployment)
+
+##🧠 What I Learned
+
+-Designing UI with a mobile-first approach
+
+-Fetching data using useEffect
+
+-Handling asynchronous operations in React
+
+-Passing data across components using props
+
+-Debugging layout overflow issues on small screens
+
+##🔌 API Used
+
+-Pexels API
+####👉 https://www.pexels.com/api/
+
+####⚠️ API keys should be stored securely using environment variables.
+
+##🗂 Project Structure
+src/
+ ├── components/
+ │   ├── ImageContainer.jsx
+ │   └── SearchBar.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── styles/
+
+##🚀 Getting Started
+1. Clone the Repository
+git clone https://github.com/your-username/photogrid.git
+cd photogrid
+
+2. Install Dependencies
+npm install
+
+3. Setup Environment Variables
+
+Create a .env file in the root directory:
+
+VITE_PEXELS_API_KEY=your_api_key_here
+
+4. Run the Project
+npm run dev
+
+##🔮 Future Enhancements
+
+-Pagination or Load More functionality
+
+-Loading and error states
+
+-Better grid performance and layout tuning
+
+-Accessibility improvements
+
+##🎯 Purpose
+
+####This project was built as a learning-focused frontend exercise to understand real-world challenges involving:
+
+####API consumption
+
+Responsive UI design
+
+Component communication
