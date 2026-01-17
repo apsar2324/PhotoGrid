@@ -1,60 +1,60 @@
-#📸 PhotoGrid
+# 📸 PhotoGrid
 
-##Responsive Photo Search Application
+## Responsive Photo Search Application
 
 🔗 Live Demo: https://photogr1d.netlify.app/
 
 📂 GitHub Repo: https://github.com/your-username/photogrid
 
-##📌 Overview
+## 📌 Overview
 
-###PhotoGrid is a mobile-first React application that allows users to search and browse images using the Pexels API.
-###This project was built to strengthen core frontend concepts like API fetching, React hooks, responsive layouts, and props-based data flow.
+### PhotoGrid is a mobile-first React application that allows users to search and browse images using the Pexels API.
+### This project was built to strengthen core frontend concepts like API fetching, React hooks, responsive layouts, and props-based data flow.
 
-##✨ Features
+## ✨ Features
 
--Keyword-based image search
+- Keyword-based image search
 
--External REST API integration
+- External REST API integration
 
--Mobile-first responsive grid layout
+- Mobile-first responsive grid layout
 
--Clean component-based architecture
+- Clean component-based architecture
 
--Data flow using props (props drilling)
+- Data flow using props (props drilling)
 
-#3🛠 Tech Stack
+# 3🛠 Tech Stack
 
--React
+- React
 
--JavaScript (ES6+)
+- JavaScript (ES6+)
 
--CSS Grid
+- CSS Grid
 
--Pexels API
+- Pexels API
 
--Netlify (Deployment)
+- Netlify (Deployment)
 
-##🧠 What I Learned
+## 🧠 What I Learned
 
--Designing UI with a mobile-first approach
+- Designing UI with a mobile-first approach
 
--Fetching data using useEffect
+- Fetching data using useEffect
 
--Handling asynchronous operations in React
+- Handling asynchronous operations in React
 
--Passing data across components using props
+- Passing data across components using props
 
--Debugging layout overflow issues on small screens
+- Debugging layout overflow issues on small screens
 
-##🔌 API Used
+## 🔌 API Used
 
--Pexels API
-####👉 https://www.pexels.com/api/
+- Pexels API
+#### 👉 https://www.pexels.com/api/
 
-####⚠️ API keys should be stored securely using environment variables.
+#### ⚠️ API keys should be stored securely using environment variables.
 
-##🗂 Project Structure
+## 🗂 Project Structure
 src/
  ├── components/
  │   ├── ImageContainer.jsx
@@ -63,7 +63,7 @@ src/
  ├── main.jsx
  └── styles/
 
-##🚀 Getting Started
+## 🚀 Getting Started
 1. Clone the Repository
 git clone https://github.com/your-username/photogrid.git
 cd photogrid
@@ -80,7 +80,7 @@ VITE_PEXELS_API_KEY=your_api_key_here
 4. Run the Project
 npm run dev
 
-##🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 -Pagination or Load More functionality
 
@@ -90,12 +90,12 @@ npm run dev
 
 -Accessibility improvements
 
-##🎯 Purpose
+## 🎯 Purpose
 
-####This project was built as a learning-focused frontend exercise to understand real-world challenges involving:
+#### This project was built as a learning-focused frontend exercise to understand real-world challenges involving:
 
-####API consumption
+- API consumption
 
-Responsive UI design
+- Responsive UI design
 
-Component communication
+- Component communication
