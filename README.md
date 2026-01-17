@@ -55,14 +55,14 @@
 #### ⚠️ API keys should be stored securely using environment variables.
 
 ## 🗂 Project Structure
-src/
+``` src/
  ├── components/
  │   ├── ImageContainer.jsx
  │   └── SearchBar.jsx
  ├── App.jsx
  ├── main.jsx
  └── styles/
-
+```
 ## 🚀 Getting Started
 1. Clone the Repository
 git clone https://github.com/your-username/photogrid.git
