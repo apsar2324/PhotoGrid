@@ -23,7 +23,7 @@
 
 - Data flow using props (props drilling)
 
-# 3🛠 Tech Stack
+## 🛠 Tech Stack
 
 - React
 
